@@ -2,6 +2,10 @@ h1,h2,h3,h4,h5,p {
     margin: 0;
     padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 * {
     box-sizing: border-box;
@@ -30,12 +34,15 @@ header div:last-child {
 }
 
 .header_text p:first-child {
+    font-family: 'Yellowtail', cursive;
     font-size: 30px;
+   
 }
 
 .header_text p:last-child {
     font-size: 12px;
     color: darkgray;
+   
 }
 
 .rss_icon {
@@ -67,10 +74,17 @@ header div:last-child {
     font-size: 10px;
 }
 
+.main_title_container h1 {
+    font-size: 40px;
+    font-weight:900;
+    font-family: 'Oswald', sans-serif;
+}
 .main_title_container p {
     font-size: 12px;
     color: darkgray;
+    font-family: 'Oswald', sans-serif;
 }
+
 
 .hero_image {
     width: 100%;
@@ -83,6 +97,7 @@ header div:last-child {
 .p_containers p{
     text-indent: 40px;
     margin: 40px 0;
+    font-weight: 530;
 }
 
 .menu_list {
@@ -92,6 +107,8 @@ header div:last-child {
 
 .menu_list label {
     display: inline-block;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 545;
 }
 
 .menu_list > div {
