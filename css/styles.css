@@ -50,7 +50,7 @@ header div:last-child {
 }
 
 .dashed_line {
-    background: url(./assets/img/hr-img.png);
+    background: url(../assets/img/hr-img.png);
     width: 100%;
     height: 15px;
     margin-bottom: 60px;
@@ -101,7 +101,7 @@ header div:last-child {
 }
 
 .menu_list {
-    background: url(./assets/img/list-bg.png);
+    background: url(../assets/img/list-bg.png);
     height: 300px;
 }
 
@@ -121,7 +121,7 @@ header div:last-child {
 }
 
 .button_dashed_line {
-    background: url(./assets/img/hr-img.png);
+    background: url(../assets/img/hr-img.png);
     width: 100%;
     height: 15px;
     margin-top: 40px;
